@@ -18,7 +18,7 @@ struct WobblesFramework {
                     .font(.system(size: 20, weight: .bold, design: .default))
                     .foregroundColor(Color.blue)
             }.padding()
-                .overlay(RoundedRectangle(cornerRadius: 10).stroke(lineWidth: 2))
+                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 2))
         }
     }
 }
